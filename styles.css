@@ -2,7 +2,7 @@
 html {
 	text-align: center;
 	padding: 0;
-	background-color: rgb(215, 215, 216);
+	background-color: rgb(240, 240, 240);
 }
 
 body { 
@@ -10,8 +10,6 @@ body {
 	line-height: 1.88889;
 	line-width;
 	color: #000000; 
-	background-color: rgb(19, 135, 143) 
-	padding: 0;
 }
 
 p { 
@@ -20,6 +18,7 @@ p {
 	margin-left: 28%;
 	margin-right: 28%;
 	font-size: 14px;
+	padding-bottom: 10px
 }
 
 h2 { 
@@ -28,6 +27,7 @@ h2 {
 	margin-bottom: 0; 
 	color: rgb(13, 173, 112);
 	font-size: 30px;
+	padding-bottom: 10px;
 }
 
 
@@ -35,12 +35,12 @@ h1 {
 	font-family: 'Gotu', sans-serif;	
 	letter-spacing: 1.5px; 
 	margin-bottom: 0; 
-	color: rgb(19, 135, 143); 
+	color: rgb(13, 173, 112); 
 	font-size: 70px;
 	border-style: solid;
 	border-color: rgba(64, 27, 167,0.65);
 	border-width: 20px;
-	
+	border-radius: 30px;
 }
 
 img {
@@ -52,7 +52,13 @@ img {
   ul {
 	font-size: 15px;  
 	display: inline-block;
-
+	padding-top: 30px;
+	padding-bottom: 30px;
   }
+
+  figcaption{
+	padding-bottom: 50px;
+  }
+
   
 
