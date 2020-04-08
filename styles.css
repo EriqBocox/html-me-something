@@ -1,0 +1,58 @@
+
+html {
+	text-align: center;
+	padding: 0;
+	background-color: rgb(215, 215, 216);
+}
+
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	line-width;
+	color: #000000; 
+	background-color: rgb(19, 135, 143) 
+	padding: 0;
+}
+
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	margin-left: 28%;
+	margin-right: 28%;
+	font-size: 14px;
+}
+
+h2 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: rgb(13, 173, 112);
+	font-size: 30px;
+}
+
+
+h1 { 
+	font-family: 'Gotu', sans-serif;	
+	letter-spacing: 1.5px; 
+	margin-bottom: 0; 
+	color: rgb(19, 135, 143); 
+	font-size: 70px;
+	border-style: solid;
+	border-color: rgba(64, 27, 167,0.65);
+	border-width: 30px;
+	
+}
+
+img {
+	border-radius: 8px;
+	width: 35%;
+  	height: 35%;
+  }
+
+  ul {
+	font-size: 15px;  
+	display: inline-block;
+
+  }
+  
+
