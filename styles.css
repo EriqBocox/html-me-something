@@ -3,12 +3,18 @@ html {
 	text-align: center;
 	padding: 0;
 	background-color: rgb(240, 240, 240);
+	/* background-image: url("https://wallpaperaccess.com/full/99785.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px; */
+	
 }
 
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
-	line-width;
 	color: #000000; 
 }
 
@@ -18,7 +24,8 @@ p {
 	margin-left: 28%;
 	margin-right: 28%;
 	font-size: 14px;
-	padding-bottom: 10px
+	padding-bottom: 10px;
+	color: black;
 }
 
 h2 { 
@@ -37,10 +44,12 @@ h1 {
 	margin-bottom: 0; 
 	color: rgb(13, 173, 112); 
 	font-size: 70px;
-	border-style: solid;
+	border-style: hidden solid hidden solid;
 	border-color: rgba(64, 27, 167,0.65);
 	border-width: 20px;
 	border-radius: 30px;
+	display: inline;
+	padding: 0 45px 0 45px;
 }
 
 img {
@@ -52,12 +61,37 @@ img {
   ul {
 	font-size: 15px;  
 	display: inline-block;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	/* padding-top: 30px;
+	padding-bottom: 30px; */
+	/* border: rgba(13, 173, 112, 0.35) solid; */
   }
 
   figcaption{
 	padding-bottom: 50px;
+	margin-left: 28%;
+	margin-right: 28%;
+	color: rgb(153, 151, 151); 
+  }
+
+  li{
+	display: inline-block;
+	padding-right: 15px;
+	padding-left: 15px;
+	border: rgba(13, 173, 112, 0.35) solid; 
+	background-color: rgba(13, 173, 112, 0.10);
+	border-radius: 8px;
+  }
+
+  a:hover{
+	  color: rgb(13, 173, 112);
+  }
+
+  li:hover{
+	  border-color: rgba(64, 27, 167,0.65);
+  }
+
+  a{
+	  color: rgb(85, 152, 206)
   }
 
   
